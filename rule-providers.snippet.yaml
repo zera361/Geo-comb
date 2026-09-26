@@ -1,0 +1,54 @@
+rule-providers:
+  geosite-GEOGAGA-DIRECT:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geosite-GEOGAGA-DIRECT.mrs"
+    path: ./rule-providers/geosite-GEOGAGA-DIRECT.mrs
+    interval: 86400
+  geosite-GEOGAGA-DIRECT-classical:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geosite-GEOGAGA-DIRECT-classical.yaml"
+    path: ./rule-providers/geosite-GEOGAGA-DIRECT-classical.yaml
+    interval: 86400
+  geosite-GEOGAGA-PROXY:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geosite-GEOGAGA-PROXY.mrs"
+    path: ./rule-providers/geosite-GEOGAGA-PROXY.mrs
+    interval: 86400
+  geosite-GEOGAGA-PROXY-classical:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geosite-GEOGAGA-PROXY-classical.yaml"
+    path: ./rule-providers/geosite-GEOGAGA-PROXY-classical.yaml
+    interval: 86400
+  geosite-GEOGAGA-BLOCK:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geosite-GEOGAGA-BLOCK.mrs"
+    path: ./rule-providers/geosite-GEOGAGA-BLOCK.mrs
+    interval: 86400
+  geosite-GEOGAGA-BLOCK-classical:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geosite-GEOGAGA-BLOCK-classical.yaml"
+    path: ./rule-providers/geosite-GEOGAGA-BLOCK-classical.yaml
+    interval: 86400
+  geoip-GEOGAGA-PROXY:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geoip-GEOGAGA-PROXY.mrs"
+    path: ./rule-providers/geoip-GEOGAGA-PROXY.mrs
+    interval: 86400
+  geoip-GEOGAGA-DIRECT:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: "https://raw.githubusercontent.com/zera361/Geo-comb/release/geoip-GEOGAGA-DIRECT.mrs"
+    path: ./rule-providers/geoip-GEOGAGA-DIRECT.mrs
+    interval: 86400
